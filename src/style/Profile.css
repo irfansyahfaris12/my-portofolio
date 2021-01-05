@@ -1,0 +1,236 @@
+.my-data {
+    display: block;
+    margin: 0 auto;
+    padding: 15px 15%;
+}
+
+.title {
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3.title span {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0;
+}
+
+.main-container span {
+    line-height: 2em;
+    margin: 2px 3%;
+}
+
+hr.bold {
+    background-color: #fff;
+    height: 2px;
+    width: 30%;
+    margin-bottom: 5vh;
+    border-style: none;
+}
+
+.biodata {
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.biodata div:nth-child(1) {
+    text-align: left;
+    flex-grow: 1;
+    font-weight: 600;
+    max-width: 50%;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.biodata div i {
+    width: 5%;
+    margin-right: 15px;
+}
+
+.biodata div:nth-child(2) {
+    display: block;
+    flex-grow: 1;
+    text-align: right;
+    max-width: 50%;
+}
+
+.biodata div {
+    margin-bottom: .5em;
+}
+
+.line-wrap {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.table-wrap.first-head {
+    height: 70px;
+}
+
+.table-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.table-wrap .content-table {
+    border-left: solid 2px #fff;
+    flex-grow: 3;
+    width: 70%;
+    position: relative;
+    overflow: visible;
+}
+
+.table-wrap .time-table {
+    flex-grow: 1;
+    position: relative;
+    overflow: visible;
+    width: 29%;
+}
+
+div {
+    display: block;
+}
+
+.table-wrap .content-table i.ico-resume {
+    background: #fff;
+    border-radius: 50%;
+    color: rgb(161, 173, 173);
+    height: 40px;
+    left: -20px;
+    line-height: 40px;
+    position: absolute;
+    text-align: center;
+    width: 40px;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.table-wrap .time-table div h5 {
+    margin-top: 0;
+}
+
+.table-wrap .time-table div {
+    margin: 0 -15px;
+    position: relative;
+    width: 100%;
+    text-align: right;
+}
+
+.table-wrap .content-table i.dot {
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    height: 10px;
+    left: -6px;
+    top: 4px;
+    width: 10px;
+}
+
+.table-wrap .content-table div h5 {
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+h5 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.table-wrap .content-table div {
+    margin: 0;
+    padding: 0 5%;
+    position: relative;
+}
+
+.table-wrap .content-table div p {
+    margin-left: 0;
+    margin-bottom: 10px;
+    font-size: 12px;
+    line-height: 2em;
+}
+
+.my-hobby p {
+    color: #fff;
+    font-size: 12px;
+    line-height: 2em;
+    text-align: center;
+}
+
+.hobbies {
+    display: flex;
+}
+
+.hobby {
+    color: #fff;
+    flex-grow: 1;
+    text-align: center;
+}
+
+h4 {
+    font-size: 14px;
+}
+
+@media screen and (max-width: 468px) {
+    .my-data {
+        display: block;
+        margin: 0 auto;
+        padding: 15px 15px;
+    }
+
+    .biodata {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .biodata div:nth-child(1) {
+        text-align: left;
+        font-weight: 600;
+        max-width: 50%;
+    }
+
+    .biodata div:nth-child(2) {
+        display: block;
+        flex-grow: 1;
+        text-align: right;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .hobbies{
+        flex-wrap: wrap;
+    }
+    .hobby{
+        width: 50%;
+    }
+}

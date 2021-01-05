@@ -1,0 +1,84 @@
+import React, { Component } from "react";
+import { Animated } from 'react-animated-css'
+import "../style/Portofolio.css";
+
+//img
+import chat from "../img/chat.png";
+import pos from "../img/pos.png";
+import dashboard from "../img/dashboard.png";
+import covid from "../img/covid.png";
+import woodcrafy from '../img/woodcrafy.png';
+import koko from '../img/koko.png';
+
+export default class Portofolio extends Component {
+  render() {
+    return (
+      <Animated
+        animationIn="fadeIn"
+        animationOut="fadeOut"
+        animationInDuration={1000}
+        animationOutDuration={1000}
+        isVisible={true}
+      >
+        <div className="main-container">
+          <div className="portofolio-wrap">
+            <h3 className="title">
+              MY <span>PORTOFOLIO</span>
+            </h3>
+            <hr className="bold" />
+            <div className="show-wrap">
+              <div className="porto-item">
+                <a href="https://imessage.netlify.app/" target="_blank   " rel="noopener noreferrer">
+                  <img width="100%" src={chat} alt="chat" />
+                  <p>e-message</p>
+                </a>
+              </div>
+              <div className="porto-item">
+                <a href="https://pos-delta.netlify.app/" target="_blank   " rel="noopener noreferrer">
+                  <img width="100%" src={pos} alt="chat" />
+                  <p>POS</p>
+                </a>
+              </div>
+              <div className="porto-item">
+                <a href="https://web1-faris.netlify.app/" target="_blank   " rel="noopener noreferrer">
+                  <img width="100%" src={dashboard} alt="chat" />
+                  <p>Dashbord</p>
+                </a>
+              </div>
+              <div className="porto-item">
+                <a
+                  href="https://corona-covid-19-track.netlify.app/"
+                  target="_blank   "
+                  rel="noopener noreferrer"
+                >
+                  <img width="100%" src={covid} alt="chat" />
+                  <p>Covid</p>
+                </a>
+              </div>
+              <div className="porto-item">
+                <a
+                  href="https://woodcrafy.com/"
+                  target="_blank   "
+                  rel="noopener noreferrer"
+                >
+                  <img width="100%" src={woodcrafy} alt="chat" />
+                  <p>Woodcrafy</p>
+                </a>
+              </div>
+              <div className="porto-item">
+                <a
+                  href="https://kokoindonesia.com/"
+                  target="_blank   "
+                  rel="noopener noreferrer"
+                >
+                  <img width="100%" src={koko} alt="chat" />
+                  <p>Koko Indonesia</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Animated>
+    );
+  }
+}

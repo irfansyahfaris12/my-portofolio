@@ -1,0 +1,32 @@
+.portofolio-wrap{
+    margin: 0 auto;
+    width: 90%;
+}
+.show-wrap{
+    display: flex;
+    flex-wrap: wrap; 
+}
+.porto-item{
+    padding: 10px;
+    text-align: center;
+    width: 33%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+@media screen and (max-width: 550px)
+ {
+    .show-wrap{
+        display: block;
+    }
+    .porto-item{
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+    }
+}

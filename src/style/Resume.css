@@ -1,0 +1,115 @@
+.my-skill {
+    margin: 0 auto;
+    width: 90%;
+}
+.skill{
+    margin-bottom: 10px;
+}
+.name-bar{
+    display: flex;
+}
+.name-bar span:nth-child(1) {
+    flex-grow: 1;
+    font-weight: 600;
+    text-align: left;
+    color: #fff;
+}
+.name-bar span:nth-child(2) {
+    flex-grow: 1;
+    text-align: right;
+    color: #fff;
+}
+.bar-skill {
+    background: 0 0;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #fff;
+}
+.percent-skill-85 {
+    background: #fff;
+    height: 10px;
+    width: 85%;
+    border: none;
+}
+.percent-skill-75 {
+    background: #fff;
+    height: 10px;
+    width: 70%;
+    border: none;
+}
+.percent-skill-65 {
+    background: #fff;
+    height: 10px;
+    width: 65%;
+    border: none;
+}
+.percent-skill-40 {
+    background: #fff;
+    height: 10px;
+    width: 40%;
+    border: none;
+}
+.percent-skill-70 {
+    background: #fff;
+    height: 10px;
+    width: 70%;
+    border: none;
+}
+.percent-skill-50 {
+    background: #fff;
+    height: 10px;
+    width: 50%;
+    border: none;
+}
+.my-service p {
+    font-size: 14px;
+    line-height: 2em;
+    text-align: center;
+    color: #fff;
+}
+.services {
+    display: flex;
+    flex-wrap: wrap;
+}
+.service{
+    flex-grow: 1;
+    font-size: 12px;
+    padding: 2vh 2%;
+    text-align: center;
+    width: 10%;
+}
+.service i {
+    background: #fff;
+    border-radius: 50%;
+    color: rgb(161, 173, 173);
+    font-size: 24px;
+    height: 95px;
+    line-height: 95px;
+    margin: auto auto;
+    width: 95px;
+}
+.service hr {
+    width: 5%;
+    height: 2px;
+    background-color: #fff;
+}
+#tab-text{
+    visibility: visible;
+    display: block;
+}
+#tab-icon {
+    visibility: hidden;
+    display: none;
+}
+@media screen and (max-width: 550px)
+ {
+     #tab-text{
+        visibility: hidden;
+        display: none;
+     }
+     #tab-icon{
+        visibility: visible;
+        display: block;
+    }
+    
+}

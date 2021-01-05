@@ -1,0 +1,117 @@
+body{
+    background: rgb(161, 173, 173);
+}
+.main-container {
+    background: rgb(161, 173, 173);
+    border: 1px solid #fff;
+    overflow: auto;
+    height: 76vh;
+}
+.home-wrap {
+    text-align: center;
+    padding: 0 5%;
+}
+.home-wrap h1 {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+h1 {
+    color: #fff;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.home-wrap h3 {
+    margin-top: 60px;
+}
+h3 {
+    color: #fff;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.home-wrap h4 {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+h4 {
+    color: #fff;
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+hr.light {
+    background-color: #fff;
+    height: .5px;
+    width: 80%;
+    border-style: none;
+}
+hr {
+    border-style: none;
+}
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+.home-wrap p {
+    color: #fff;
+    font-size: 14px;
+    font-style: italic;
+}
+.main-container p, .main-container span {
+    line-height: 2em;
+    margin: 2px 3%;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.home-wrap #phone {
+    color: #fff;
+    display: block;
+    font-weight: 700;
+}
+.home-wrap #email {
+    color: #fff;
+    font-weight: 400;
+}
+.btn-cv{
+ border: 1px solid white;
+ padding: 5px;
+}
+.hr-botom{
+    border: none;
+}
+@media screen and (max-width: 468px){
+    .home-wrap h1{
+        font-size: x-large;
+    }
+}
+
+@media screen and (max-width: 780px){
+    .main-container{
+        overflow: visible;
+        height: auto;
+    }
+}

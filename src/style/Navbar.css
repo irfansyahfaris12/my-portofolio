@@ -1,0 +1,56 @@
+nav{
+    border: 1px solid #fff;
+}
+nav ul li {
+    cursor: pointer;
+    color: #6f6f6f;
+    flex-grow: 1;
+    font-size: 14px;
+    list-style-type: none;
+    padding: 2vh 2%;
+    text-align: center;
+    text-transform: uppercase;
+}
+nav ul {
+    display: flex;
+    /* height: 8vh; */
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+li {
+    display: list-item;
+}
+nav ul :active {
+    background: #fff;
+    color: teal;
+    /* font-weight: 600; */
+}
+
+nav ul a {
+    color: #fff;
+}
+
+nav ul a:hover{
+    text-decoration: none;
+    color: #6f6f6f;
+}
+
+@media screen and (max-width: 780px){
+    nav ul li{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    nav{
+        height: auto;
+    }
+}
