@@ -18,6 +18,7 @@ export default class Home extends Component {
                         <span id="email">irfansyah.faris@gmail.com</span>
                         <hr className="hr-botom" />
                         <a className="btn-cv" href="https://drive.google.com/file/d/1rct04jQ2NU1o2AP_rqgjkL8sUuqjBNHY/view?usp=sharing" target="_blank" rel="noopener noreferrer">Download CV</a>
+                        <hr className="hr-botom" />
                     </div>
                 </div>
             </Animated>
