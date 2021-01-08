@@ -9,6 +9,10 @@ import dashboard from "../img/dashboard.png";
 import covid from "../img/covid.png";
 import woodcrafy from '../img/woodcrafy.png';
 import koko from '../img/koko.png';
+import country from '../img/country.png';
+import spotify from '../img/spotify.png';
+import ecommers from '../img/ecommers.png';
+import paint from '../img/paint.png';
 
 export default class Portofolio extends Component {
   render() {
@@ -73,6 +77,43 @@ export default class Portofolio extends Component {
                 >
                   <img width="100%" src={koko} alt="chat" />
                   <p>Koko Indonesia</p>
+                </a>
+              </div>
+              <div className="porto-item">
+                <a
+                  href="https://country-nextjs.irfansyahfaris12.vercel.app/"
+                  target="_blank   "
+                  rel="noopener noreferrer"
+                >
+                  <img width="100%" src={country} alt="chat" />
+                  <p>Country</p>
+                </a>
+              </div>
+              <div className="porto-item">
+                <a
+                  href="https://spotify-react-ui.netlify.app/"
+                  target="_blank   "
+                  rel="noopener noreferrer"
+                >
+                  <img width="100%" src={spotify} alt="chat" />
+                  <p>Spotify React UI</p>
+                </a>
+              </div>
+              <div className="porto-item">
+                <a
+                >
+                  <img width="100%" src={ecommers} alt="chat" />
+                  <p>E-commers (soon)</p>
+                </a>
+              </div>
+              <div className="porto-item">
+                <a
+                  href="https://react-paint.netlify.app/"
+                  target="_blank   "
+                  rel="noopener noreferrer"
+                >
+                  <img width="100%" src={paint} alt="chat" />
+                  <p>React Paint</p>
                 </a>
               </div>
             </div>
