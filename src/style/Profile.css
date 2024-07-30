@@ -84,6 +84,7 @@ hr.bold {
     flex-wrap: wrap;
     width: 100%;
     margin: 0 auto;
+    color: #fff;
 }
 
 .table-wrap .content-table {

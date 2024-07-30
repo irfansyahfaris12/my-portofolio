@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react'
 import "../style/Right.css"
 import { Animated } from "react-animated-css";
-import Me from "../img/me.jpg";
+import Me from "../img/me.png";
 
 export default class Right extends Component {
     render() {

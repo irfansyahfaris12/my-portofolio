@@ -4,15 +4,17 @@ import "../style/Portofolio.css";
 
 //img
 import chat from "../img/chat.png";
-import pos from "../img/pos.png";
+// import pos from "../img/pos.png";
 import dashboard from "../img/dashboard.png";
 import covid from "../img/covid.png";
 import woodcrafy from '../img/woodcrafy.png';
 import koko from '../img/koko.png';
-import country from '../img/country.png';
+// import country from '../img/country.png';
 import spotify from '../img/spotify.png';
-import ecommers from '../img/ecommers.png';
+// import ecommers from '../img/ecommers.png';
 import paint from '../img/paint.png';
+import tokorameWebsite from '../img/tokorame-website.png'
+import tokorameWebapp from '../img/tokorame-app.png'
 
 export default class Portofolio extends Component {
   render() {
@@ -31,6 +33,18 @@ export default class Portofolio extends Component {
             </h3>
             <hr className="bold" />
             <div className="show-wrap">
+            <div className="porto-item">
+                <a href="https://tokorame.co.id/" target="_blank   " rel="noopener noreferrer">
+                  <img width="100%" src={tokorameWebsite} alt="chat" />
+                  <p>Tokorame Website</p>
+                </a>
+              </div>
+              <div className="porto-item">
+                <a href="https://app.tokorame.co.id/login" target="_blank   " rel="noopener noreferrer">
+                  <img width="100%" src={tokorameWebapp} alt="chat" />
+                  <p>Tokorame WebApp</p>
+                </a>
+              </div>
               <div className="porto-item">
                 <a href="https://imessage.netlify.app/" target="_blank   " rel="noopener noreferrer">
                   <img width="100%" src={chat} alt="chat" />
@@ -38,25 +52,9 @@ export default class Portofolio extends Component {
                 </a>
               </div>
               <div className="porto-item">
-                <a href="https://pos-delta.netlify.app/" target="_blank   " rel="noopener noreferrer">
-                  <img width="100%" src={pos} alt="chat" />
-                  <p>POS</p>
-                </a>
-              </div>
-              <div className="porto-item">
                 <a href="https://web1-faris.netlify.app/" target="_blank   " rel="noopener noreferrer">
                   <img width="100%" src={dashboard} alt="chat" />
-                  <p>Dashbord</p>
-                </a>
-              </div>
-              <div className="porto-item">
-                <a
-                  href="https://corona-covid-19-track.netlify.app/"
-                  target="_blank   "
-                  rel="noopener noreferrer"
-                >
-                  <img width="100%" src={covid} alt="chat" />
-                  <p>Covid</p>
+                  <p>Dashbord (UI)</p>
                 </a>
               </div>
               <div className="porto-item">
@@ -81,12 +79,12 @@ export default class Portofolio extends Component {
               </div>
               <div className="porto-item">
                 <a
-                  href="https://country-nextjs.irfansyahfaris12.vercel.app/"
+                  href="https://corona-covid-19-track.netlify.app/"
                   target="_blank   "
                   rel="noopener noreferrer"
                 >
-                  <img width="100%" src={country} alt="chat" />
-                  <p>Country</p>
+                  <img width="100%" src={covid} alt="chat" />
+                  <p>Covid</p>
                 </a>
               </div>
               <div className="porto-item">
@@ -97,13 +95,6 @@ export default class Portofolio extends Component {
                 >
                   <img width="100%" src={spotify} alt="chat" />
                   <p>Spotify React UI</p>
-                </a>
-              </div>
-              <div className="porto-item">
-                <a
-                >
-                  <img width="100%" src={ecommers} alt="chat" />
-                  <p>E-commers (soon)</p>
                 </a>
               </div>
               <div className="porto-item">

@@ -31,7 +31,7 @@ export default class Profile extends Component {
                                 <i class="fa fa-phone" aria-hidden="true"></i>
                                 Phone
                         </div>
-                            <div>082218143522</div>
+                            <div>085155406019</div>
                         </div>
                         <div className="biodata">
                             <div>
@@ -69,7 +69,25 @@ export default class Profile extends Component {
                         <div className="table-wrap">
                             <div className="time-table">
                                 <div>
-                                    <h5>2019 - now</h5>
+                                    <h5>2022 - now</h5>
+                                </div>
+                            </div>
+                            <div className="content-table">
+                                <i className="dot"></i>
+                                <div>
+                                    <h5>
+                                        Universitas Terbuka
+                                </h5>
+                                    <p>
+                                    
+                                </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="table-wrap">
+                            <div className="time-table">
+                                <div>
+                                    <h5>2019 - 2020</h5>
                                 </div>
                             </div>
                             <div className="content-table">

@@ -1,128 +1,169 @@
 .cover-photo {
-    /* background-color: #000; */
-    background-size: 100%;
-    height: 78vh;
-    overflow: hidden;
-    position: relative;
-
+  /* background-color: #000; */
+  background-size: 100%;
+  height: 60vh;
+  overflow: hidden;
+  position: relative;
 }
 
 .img-profile {
-    width: 100%;
+  width: 100%;
 }
 
 .identity {
-    bottom: 50px;
-    color: #fff;
-    display: block;
-    position: absolute;
-    text-align: left;
-    width: 90%;
+  bottom: 76px;
+  color: #fff;
+  display: block;
+  position: absolute;
+  text-align: left;
+  width: 90%;
 }
+
+/* .cover-social {
+  border: 1px solid #fff;
+  height: 5vh;
+  list-style: none;
+}
+
+.cover-social ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.cover-social ul li {
+  flex-grow: 1;
+  padding: 1px;
+} */
+
 
 .cover-social {
     border: 1px solid #fff;
-    height: 6vh;
-    list-style: none;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .cover-social ul {
     display: flex;
-    list-style-type: none;
-    margin: 0 auto;
     padding: 0;
-    text-align: center;
+    margin: 0;
+    list-style-type: none;
 }
 
 .cover-social ul li {
-    flex-grow: 1;
-    padding: 1px;
+    margin: 0 10px; /* Space out the icons */
+}
+
+.cover-social a {
+    color: #fff;
+    font-size: 2rem; /* Adjust the size of the icons */
+    transition: color 0.3s ease; /* Smooth transition on hover */
+}
+
+.cover-social a:hover {
+    color: #000; /* Change to a different color on hover */
 }
 
 li {
-    display: list-item;
-    text-align: -webkit-match-parent;
+  display: list-item;
+  text-align: -webkit-match-parent;
 }
 
 ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
 }
 
 .identity h3 {
-    color: #fff;
-    margin: 0 2%;
-    text-transform: uppercase;
+  color: #fff;
+  margin: 0 2%;
+  text-transform: uppercase;
 }
 
 .identity p {
-    color: #fff;
-    font-size: 12px;
-    font-style: italic;
-    margin-bottom: 25px;
-    text-transform: uppercase;
+  color: #fff;
+  font-size: 12px;
+  font-style: italic;
+  margin: 0 2%;
+  margin-bottom: 25px;
+  text-transform: uppercase;
 }
 
-@media screen and (max-width: 370px){
-    img{
-        width: 55%;
-    }
+@media screen and (max-width: 370px) {
+  img {
+    width: 55%;
+  }
 }
-@media screen and (max-width: 468px){
-    img{
-        margin-top: -2vh;
-    }
+@media screen and (max-width: 468px) {
+  img {
+    margin-top: -2vh;
+  }
 }
-@media screen and (max-width: 500px){
-    .identity{
-        text-align: center;
-        top: 180px;
-    }
+@media screen and (max-width: 500px) {
+  .identity {
+    text-align: center;
+    top: 180px;
+  }
 }
 
-@media screen and (max-width: 550px){
-    .identity h3{
-        font-size: 16px;
-    }
-    .identity p{
-        font-size: 10px;
-    }
-    .cover-social ul{
-        padding: 0;
-    }
-    
+@media screen and (max-width: 550px) {
+  .identity h3 {
+    font-size: 16px;
+  }
+  .identity p {
+    font-size: 10px;
+  }
+  .cover-social ul {
+    flex-direction: column; /* Stack icons vertically on small screens */
+    align-items: center;
+}
+
+.cover-social ul li {
+    margin: 10px 0; /* Space out vertically stacked icons */
+}
+
+.cover-social a {
+    font-size: 1.5rem; /* Smaller icons for mobile devices */
+}
 }
 
 @media screen and (max-width: 600px) {
-    .cover-photo {
-        height: 230px;
-    }
-
+  .cover-photo {
+    height: 230px;
+  }
 }
 
 @media screen and (max-width: 780px) {
-    .cover-photo {
-        /* height: 270px; */
-        position: relative;
-    }
-    .cover-photo img{
-        display: block;
-        margin: 0 auto;
-    }
+  .cover-photo {
+    /* height: 270px; */
+    position: relative;
+  }
+  .cover-photo img {
+    display: block;
+    margin: 0 auto;
+  }
 
-    .cover-social {
-        height: 35px;
-        padding-top: 10px;
-    }
-    .cover-social ul li{
-        text-align: center;
-    }
-    .identity{
-        bottom: auto;
-    }
+  .cover-social ul {
+    flex-direction: row; /* Keep icons in a row for tablets */
+}
+
+.cover-social ul li {
+    margin: 0 10px; /* Adjust spacing for smaller screens */
+}
+
+.cover-social a {
+    font-size: 1.8rem; /* Slightly smaller icons for tablets */
+}
+  .identity {
+    bottom: auto;
+  }
 }

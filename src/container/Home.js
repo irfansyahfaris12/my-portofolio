@@ -12,9 +12,10 @@ export default class Home extends Component {
                         <h1>Irfansyah Muhammad Al-Faris</h1>
                         <h4>FRONT-END DEVELOPER</h4>
                         <hr className="light" />
-                        <p>"A junior front-end developer from Banjar, Indonesia. I always give the best effort for each projects I did. I give a solution with my creative app."</p>
+                        <p>"I am a Frontend Developer proficient and well-versed in React JS, React Native, Next JS, and Gatsby js. I am passionate about creating engaging user experiences and interfaces. I am enjoy crafting visually appealing and intuitive designs that enhance usability and functionality. 
+                        "</p>
                         <br />
-                        <span id="phone">082218143522</span>
+                        <span id="phone">085155406019</span>
                         <span id="email">irfansyah.faris@gmail.com</span>
                         <hr className="hr-botom" />
                         <a className="btn-cv" href="https://drive.google.com/file/d/1rct04jQ2NU1o2AP_rqgjkL8sUuqjBNHY/view?usp=sharing" target="_blank" rel="noopener noreferrer">Download CV</a>

@@ -28,6 +28,21 @@ export default class Resume extends Component {
               <div className="table-wrap">
                 <div className="time-table">
                   <div>
+                    <h5>2021 Februari - Now</h5>
+                  </div>
+                </div>
+                <div className="content-table">
+                  <i className="dot"></i>
+                  <div>
+                    <h5>PT. Tokorame Anugerah Sejahtera</h5>
+                    <p>Tokorame merupakan Aplikasi yang membuat siapa pun bisa berbisnis fashion Muslim, didukung oleh ribuan stok produk full support. Sehingga Tokorame dapat berkontribusi dalam pemberdayaan keluarga di Indonesia untuk mencapai kesejahteraan yang diimpikan tiap keluarga di Indonesia. Hal ini sebanding lurus dengan visi Tokorame untuk menjadi social commerce pilihan utama dalam memenuhi kebutuhan keluarga di Indonesia.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="table-wrap">
+                <div className="time-table">
+                  <div>
                     <h5>2019 Desember - 2020 Maret</h5>
                   </div>
                 </div>
